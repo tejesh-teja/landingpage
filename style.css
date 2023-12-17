@@ -1,0 +1,218 @@
+
+.box1  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logos {
+    width: 10%;
+    height: 30px;
+    padding: 6px;
+    align-items: end;
+    
+    
+}
+.logos1 {
+    width: 20px;
+    height: 30px;
+}
+.images {
+    padding-left: 150px;
+    
+}
+.email {
+    padding-right: 380px;
+    
+}
+.phone {
+    padding-left: 200px;
+}
+.request {
+    padding-right: 50px;
+
+}
+button {
+    
+  border: none;
+  color: rgb(13, 145, 193);
+  padding: 1px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+  cursor: pointer;
+}
+.header {
+    background-image: url(https://img.freepik.com/premium-photo/blue-paper-texture-cardboard-sheet-copy-space_116441-19559.jpg);
+    
+}
+.nav-logo {
+    width: 60px;
+    height: 60px;
+    padding-left: 150px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+.title {
+    padding-right: 300px;
+
+}
+.nav-right {
+    padding-right: 120px;
+
+}
+a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    text-decoration: none;
+    color: black;
+    padding: 100px 8px;
+    font-weight: bold;
+
+}
+
+.search-bar {
+    padding-right: 100px;
+
+}
+.pic {
+    width: 100vw;
+    height: 60vh;
+}
+.main-part {
+    padding-bottom: 150px;
+}
+
+.slideshow {
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    margin: auto;
+}
+.slide-wrapper  {
+    width:calc(100vw *3); 
+    animation: slide 10s ease infinite;
+  
+}
+.content {
+    color: darkblue;
+    font-size: 20px;
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.slide {
+    height: 60vh;
+    width: 100vw;
+    float: left;
+}
+
+
+
+@keyframes slide {
+    30% {
+        margin-left: 0px;
+    }
+    60% {
+        margin-left: calc(-100vw *1);
+    }
+    90% {
+        margin-left: calc(-100vw *2);
+    }
+   
+}
+.sub-part1{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+
+}
+.sub-part2 {
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: end;
+   
+
+
+}
+.sub-icons {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   
+}
+.sub-image {
+    height: 30px;
+}
+.sub-p{
+    color : white;
+    text-align: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sub-part {
+    background-image: url(https://img.freepik.com/premium-photo/blue-paper-texture-cardboard-sheet-copy-space_116441-19559.jpg);
+}
+.about {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.about-left {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    padding-top: 100px;
+}
+.about-right {
+    padding-top: 50px;
+    display: inline-block;
+    
+}
+.about-pic {
+    width: 400px;
+    height: 500px;
+}
+.services {
+
+}
+.card {
+
+}
+.card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 50px;
+
+    
+}
+.ser-images {
+    width: 40%;
+    height: 300px;
+}
+.card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 350px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 30px;
+}
